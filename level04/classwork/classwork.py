@@ -1,2 +1,2 @@
-age=str(input("your age :12" ))
-age > 18
+age=int(input("your age :12" ))
+print(age>18)
