@@ -19,20 +19,17 @@ for i in range( 1 , 102 , +2 ):
 
 
 
-for i in range( 100):
-    print (goa i)
+
 
 
 i=1
 
-x=input(int(რიცხვი))
+x=input(int())
 
 for i in range (x):
     print(i)
 
-i=10
-while i> 10:
-    print (goa top)
+
 
 
 
