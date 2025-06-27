@@ -4,15 +4,18 @@ for i in range (1,10):
 for i in range (0,21,2):
     print(i)
 
-n=int(input("enter number"))           
-total=0
-for x in range(1,n+1):
-    total+=x
+n=(input("enter number"))
+total=n*(n+1)//2
 print(total)
+
 
 for i in range (10,1,-1):
     print(i)
 
+odd=0
+for i in range (1,101,2):
+    odd=odd+1
+    print(odd)
 
 
 
@@ -21,17 +24,7 @@ for i in range (10,1,-1):
 
 
 
-# i=2
-# while 1<=20:
-# sum +=i
 
-
-# i=1
-# sum=0
-# while i<-n
-# sum+=i
-# i+=1
-# print=("ჯამში არია sum")
 
 
 

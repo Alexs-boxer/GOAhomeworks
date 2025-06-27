@@ -11,6 +11,7 @@ print(list["-5.12"])
  #string არის immutable და list არის mutable ნიშნავს რომ  სტრინგი არის უარყოფიტი ან დადები
 
 
-list=[1,2,3,4,5,6,7,8,9,10]
 
-print(list[1:4])
+ 
+
+
