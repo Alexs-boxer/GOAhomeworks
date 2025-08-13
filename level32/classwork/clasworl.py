@@ -51,5 +51,4 @@ print(text.capitalize())
 #იპოვე სიტყვა "პითონი" წინადადებაში find() ფუნქციით და დაბეჭდე მისი მდებარეობა.
 sentence = "i love python"
 position = sentence.find("puthon")
-
 print("python")
