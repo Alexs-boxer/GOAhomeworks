@@ -6,3 +6,8 @@ print(eat)
 country= ["rusia", "uzbekistan", "georgia"]
 europ = " ".join(country)
 
+
+def sum_two_number(a, b):
+    return a + b
+
+print(sum_two_number(3, 5))

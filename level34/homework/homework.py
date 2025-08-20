@@ -1,6 +1,6 @@
 #ფუნქციები საჭიროა იმისთვის, რომ კოდი უფრო მარტივად წასაკითხი, გასაგები და  გამოყენებადი იყოს
 def double_values(numbers):
-    return [x * 2 for x in numbers]0
+    return [x * 2 for x in numbers]
 print(double_values([1, 2, 3, 4]))  
 
 
