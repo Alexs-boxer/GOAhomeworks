@@ -1,0 +1,45 @@
+<!--სელექტორი – ეს არის საშუალება, რომლის მეშვეობითაც CSS-ში ვირჩევთ HTML  თაგებს და გავსტილავთ მათ (ფერი, ზომა, შრიფტი და ა.შ.).
+CSS-ს აქვს პრიორიტეტები, ანუ როდესაც ერთსა და იმავე ელემენტზე რამდენიმე სტილი მოქმედებს, გადამწყვეტი ხდება პრიორიტეტი.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>goa/div>
+    <div class="blue-box">goa</div>
+    <div id="special-box">goa</div>
+    <div class="border-box">goa</div>
+    <div style="background: antiquewhite;">goa</div>
+    <style>
+      
+div {
+  font-size: 18px;
+  padding: 10px;
+  margin: 5px;
+}
+
+
+.blue-box {
+  background-color: red;
+  color: sienna;
+}
+
+#special-box {
+  background-color: green;
+  color:honeydew;
+}
+
+
+.border-box {
+  border: 2px solid goldenrod;
+  background-color: forestgreen;
+}
+
+
+    </style>
+</body>
+</html>
